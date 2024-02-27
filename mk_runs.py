@@ -12,7 +12,7 @@ project="2024S1RSRCommissioning"
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
 
-on['I10565']  = [ 110669, 110670 ]
+on['I10565']  = [-110669, 110670 ]
 
     
 on['I12112']  = [ 110665, 110666 ]

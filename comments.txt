@@ -1,2 +1,2 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
-#123456    QAFAIL     # ...
+110669    QAFAIL  data on 1,2,3

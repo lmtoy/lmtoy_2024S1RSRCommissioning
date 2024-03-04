@@ -9,24 +9,40 @@ from lmtoy import runs
 project="2024S1RSRCommissioning"
 
 
+
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
 
-on['I10565']  = [-110669, 110670 ]
+on['Blanksky'] = [ 110444]
 
+on['1051p213'] = [ 110877]
+
+on['I08311']   = [ 111601, 111601]
+
+on['I10565']   = [-110669, 110670, 110879, 110880, 110898, 110899]
     
-on['I12112']  = [ 110665, 110666 ]
+on['I12112']   = [ 110665, 110666, 110963, 110964, 111583, 111584, 111606, 111607]
+
+on['I17208']   = [ 111032, 111033]
 
     
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
+pars1['Blanksky']   = ""
+pars1['1051p213']   = "linecheck=1"
+pars1['I08311']     = "linecheck=1"
 pars1['I10565']     = "linecheck=1"
 pars1['I12112']     = "linecheck=1"
+pars1['I17208']     = "linecheck=1"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
-pars2['I10565']     = "srdp=1"
-pars2['I12112']     = "srdp=1"
+pars2['Blanksky']   = ""
+pars2['1051p213']   = ""
+pars2['I08311']     = ""
+pars2['I10565']     = ""
+pars2['I12112']     = ""
+pars2['I17208']     = ""
 
 
 if __name__ == '__main__':    

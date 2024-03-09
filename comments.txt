@@ -1,2 +1,11 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 110669    QAFAIL  data on 1,2,3
+112315  Beam=10,8
+112316  Beam=10,8
+112333  Beam=10,8
+112334  Beam=10,8
+112340  Beam=10,8
+112341  Beam=10,8
+112383  Beam=10,8
+112384  Beam=10,8
+

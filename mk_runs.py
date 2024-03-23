@@ -34,6 +34,7 @@ on['I17208']   = [ 111032, 111033, 113645, 113646, 113650, 113651, 113790, 11379
 
     
 #        common parameters per source on the first dryrun (run1a, run2a)
+#        strong ones need cthr=0.015
 pars1 = {}
 #pars1['Blanksky']   = ""
 #pars1['1051p213']   = "linecheck=1"

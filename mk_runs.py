@@ -54,4 +54,4 @@ pars2['I17208']     = ""
 
 
 if __name__ == '__main__':    
-    runs.mk_runs(project, on, pars1, pars2, sys.argv)
+    runs.mk_runs(project, on, pars1, pars2, None, sys.argv)

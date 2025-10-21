@@ -16,6 +16,11 @@ on = {}
 #on['Blanksky'] = [ 110444]
 #on['1051p213'] = [ 110877]
 
+# LkHa101141010  RSR        LineCheck    Bs          LkHa101   
+
+on['LkHa101']  = [ 141019, 141010,]
+
+
 on['I08311']   = [ 111601, 111601]
 
 on['I10565']   = [-110669, 110670,-110879,-110880, 110898, 110899,
@@ -55,6 +60,12 @@ on["bllac"] =  [ 121755, 122137, 122349, 124160,]
 
 on["mwc349a"] =  [ 123885, 123888, 123889,]
 
+on["I05189"] = [ 121397, 121398, 121977, 121978, 124233, 124234, 124903,
+	         124904, 126665, 126666, 127177, 127178, 127288, 127289, 127401, 127402,
+  	         127513, 127514, 127792, 127793, 140986, 140987,]
+
+
+
 
     
 #        common parameters per source on the first dryrun (run1a, run2a)
@@ -62,6 +73,7 @@ on["mwc349a"] =  [ 123885, 123888, 123889,]
 pars1 = {}
 #pars1['Blanksky']   = ""
 #pars1['1051p213']   = "linecheck=1"
+pars1['LkHa101']     = "linecheck=1"
 pars1['I08311']     = "linecheck=1"
 pars1['I10565']     = "linecheck=1"
 pars1['I12112']     = "linecheck=1"
@@ -70,11 +82,13 @@ pars1["I23365"]     = "linecheck=1"
 pars1["VIIZw31"]    = "linecheck=1"
 pars1["bllac"]      = "linecheck=1"
 pars1["mwc349a"]    = "linecheck=1"
+pars1["I05189"]     = "linecheck=1"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 #pars2['Blanksky']   = ""
 #pars2['1051p213']   = ""
+pars2['LkHa101']     = ""
 pars2['I08311']     = ""
 pars2['I10565']     = ""
 pars2['I12112']     = ""
@@ -83,7 +97,7 @@ pars2["I23365"]     = ""
 pars2["VIIZw31"]    = ""
 pars2["bllac"]      = ""
 pars2["mwc349a"]    = ""
-
+pars2["I05189"]     = ""
 
 
 if __name__ == '__main__':    
